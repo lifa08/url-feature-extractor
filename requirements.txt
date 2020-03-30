@@ -1,6 +1,6 @@
 tldextract
 pysafebrowsing
-whois
+python-whois
 html2text
 lxml
 requests

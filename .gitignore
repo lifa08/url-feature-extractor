@@ -4,3 +4,4 @@ env.list
 .ipython/
 .jupyter/
 .local/
+.cache/
