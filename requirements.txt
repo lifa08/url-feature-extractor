@@ -1,0 +1,6 @@
+tldextract
+pysafebrowsing
+whois
+html2text
+lxml
+requests

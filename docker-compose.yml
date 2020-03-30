@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+  url_extractor:
+    build: .
+    image: lifa08/url_extractor_notebook
+    restart: always
+    hostname: '127.0.0.1'
+    ports:
+      - "8888:8888"
+    env_file: env.list
+
+    volumes:
+      - .:/home/jovyan
