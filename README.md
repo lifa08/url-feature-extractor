@@ -25,13 +25,16 @@ This url feature extractor extracts from a given URL potential features that mig
 ## Features
 The extracted features can be classified into two catogories.
 
-![url strcture image](url_structure.png) can help understand what the features mean.
+![url strcture image](url_structure.png) 
+
+This url structure image might help understand what the features mean.
 
 - FQDN: Fully Qualified Domain Name
 - mld: main level domain
 - RDN: Registered Domain Name
 
-- url features
+### url features
+
 	1. url_length
 	2. is_blacklisted
 	3. is_IPbased
@@ -44,7 +47,9 @@ The extracted features can be classified into two catogories.
 	10 RDNRank
 	11. domain_provider
 	12. domain_valid_period
-- page visit features
+
+### Page visit features
+
 	13. redirect_number
 	14. landing_url
 	15. title_term_cnt
@@ -60,16 +65,17 @@ The extracted features can be classified into two catogories.
 	25. landing_mld_in_title
 	26. landing_mld_in_text
 	27. landing_mld_in_href_FreeURL
-	- comparison features
-		28. hyper_link_jaccard
-		29. hyper_link_mld_jaccard
-		30. ss_jaccard
-		31. ss_url_jaccard
-		32. ss_url_mld_jaccard
-		33. img_url_jaccard
-		34. img_url_mld_jaccard
-		35. title_jaccard
-		36 is_hompage_linked
+
+#### Comparison features
+	28. hyper_link_jaccard
+	29. hyper_link_mld_jaccard
+	30. ss_jaccard
+	31. ss_url_jaccard
+	32. ss_url_mld_jaccard
+	33. img_url_jaccard
+	34. img_url_mld_jaccard
+	35. title_jaccard
+	36 is_hompage_linked
 
 
 ## To do
