@@ -6,8 +6,10 @@ This url feature extractor extracts from a given URL potential features that mig
 ## Usage
 
 ```git clone git@github.com:lifa08/url-feature-extractor.git```
+
 ```cd url-feature-extractor/```
-```docker-compose up``
+
+```docker-compose up```
 
 
 ## Technologies and python libraries
