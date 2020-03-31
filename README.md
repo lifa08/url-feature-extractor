@@ -24,7 +24,7 @@ This url feature extractor extracts from a given URL potential features that mig
 
 ## Features
 
-This url structure image might help understand what the features mean.
+This url structure image might help to understand what the following features mean.
 
 ![url strcture image](url_structure.png) 
 
@@ -66,17 +66,16 @@ The extracted features can be classified into two catogories:
 	25. landing_mld_in_title
 	26. landing_mld_in_text
 	27. landing_mld_in_href_FreeURL
-
-	- **Comparison features**
-		28. hyper_link_jaccard
-		29. hyper_link_mld_jaccard
-		30. ss_jaccard
-		31. ss_url_jaccard
-		32. ss_url_mld_jaccard
-		33. img_url_jaccard
-		34. img_url_mld_jaccard
-		35. title_jaccard
-		36 is_hompage_linked
+	28. **Comparison features**
+		* hyper_link_jaccard
+		* hyper_link_mld_jaccard
+		* ss_jaccard
+		* ss_url_jaccard
+		* ss_url_mld_jaccard
+		* img_url_jaccard
+		* img_url_mld_jaccard
+		* title_jaccard
+		* is_hompage_linked
 
 
 ## To do
