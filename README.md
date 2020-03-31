@@ -11,7 +11,7 @@ This url feature extractor extracts from a given URL potential features that mig
 
 ```docker-compose up```
 
-If you don't have docker engine or simply don't want to use docker, just use your own jupyter notebook to open the [url_feature_extractor.ipynb] file. In this case, you need to set up the environment yourself by installing the python libraries needed in thise project.
+If you don't have docker engine or simply don't want to use docker, just use your own jupyter notebook to open the [url_feature_extractor.ipynb](url_feature_extractor.ipynb) file. In this case, you need to set up the environment yourself by installing the python libraries needed in thise project.
 
 __Note: to use function ```is_malicious_in_google_safebrowsing``` and ```function is_malicious_in_virustotal```, google api key and virustotal api key are needed, so you need to get those for yourself and store it in the env.list file. To make the code runnable without those keys, these functions are commented out. So after you get keys for yourself, uncomment it these function calls.__
 
@@ -64,8 +64,8 @@ These features can be classified into two catogories and are shown as follows:
 	* iframe_number
 	* input_number: number of input fields
 	* image_number
-	* href_number: number of href links in <a> tags
-	* mld_equals: whether main level domain equeals in starting url and landing url
+	* href_number: number of href links in the <a> tags
+	* mld_equals: whether main level domain equals in starting url and landing url
 	* starting_mld_in_title: does starting main level domain appear in web page title
 	* starting_mld_in_text
 	* starting_mld_in_href_FreeURL
