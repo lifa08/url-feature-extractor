@@ -45,7 +45,7 @@ The extracted features can be classified into two catogories:
 	7. FQDN_length
 	8. mld_length
 	9. url_terms_cnt
-	10 RDNRank
+	10. RDNRank
 	11. domain_provider
 	12. domain_valid_period
 
