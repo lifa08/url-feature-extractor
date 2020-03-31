@@ -9,8 +9,7 @@ This url feature extractor extracts from a given URL potential features that mig
 
 ```cd url-feature-extractor/```
 
-```docker-compose up```
-
+```docker-compose up``
 
 ## Technologies and python libraries
 
@@ -26,7 +25,7 @@ This url feature extractor extracts from a given URL potential features that mig
 ## Features
 The extracted features can be classified into two catogories.
 
-[url strcture image]((url_structure.png)) can help understand what the features mean.
+![url strcture image](url_structure.png) can help understand what the features mean.
 
 - FQDN: Fully Qualified Domain Name
 - mld: main level domain
