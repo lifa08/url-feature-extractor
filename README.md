@@ -34,7 +34,7 @@ This url structure image might help understand what the features mean.
 
 The extracted features can be classified into two catogories:
 
-### url features
+- **url features**
 
 	1. url_length
 	2. is_blacklisted
@@ -49,7 +49,7 @@ The extracted features can be classified into two catogories:
 	11. domain_provider
 	12. domain_valid_period
 
-Page visit features
+- **Page visit features**
 
 	13. redirect_number
 	14. landing_url
@@ -67,7 +67,7 @@ Page visit features
 	26. landing_mld_in_text
 	27. landing_mld_in_href_FreeURL
 
-	- Comparison features
+	- **Comparison features**
 		28. hyper_link_jaccard
 		29. hyper_link_mld_jaccard
 		30. ss_jaccard
